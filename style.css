@@ -37,7 +37,8 @@ a{
 	padding: 0 40px;
 }
 
-.heading {
+.heading,
+footer {
     background-color: var(--dark);
     color: var(--light);
 }
@@ -199,4 +200,11 @@ a{
 }
 .cta__btn{
     flex-shrink: 0;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4.5rem;
 }
